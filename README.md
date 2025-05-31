@@ -14,7 +14,7 @@ A simple to-do list web application using HTML, CSS, JavaScript, PHP, and MySQL.
 
 1. **Clone the repository** (or copy the project folder):
    ```
-   git clone https://github.com/your-username/todo-app.git
+   git clone https://github.com/FikrSam/To-Do-App.git
    ```
 
 2. **Set up the MySQL database**:
