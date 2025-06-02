@@ -38,6 +38,7 @@ A simple to-do list web application using HTML, CSS, JavaScript, PHP, and MySQL.
      ```
 
 **Option A: Using PHP's built in server**
+
 4. **Start a local server**:
    - You can use PHP’s built-in server. Open a terminal in the `To-Do app` directory and run:
      ```
@@ -46,6 +47,7 @@ A simple to-do list web application using HTML, CSS, JavaScript, PHP, and MySQL.
    - Then visit `http://localhost:8000` in your browser.
 
 **Option B: Using XAMPP**
+
 4. **Set up with XAMPP**:
    - Make sure XAMPP is installed and running (start Apache and MySQL from the XAMPP control panel).
    - Move or copy the entire To-Do app folder to your htdocs directory:
