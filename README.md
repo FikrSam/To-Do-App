@@ -37,12 +37,26 @@ A simple to-do list web application using HTML, CSS, JavaScript, PHP, and MySQL.
      $pass = 'your_password';
      ```
 
+**Option A: Using PHP's built in server**
 4. **Start a local server**:
    - You can use PHP’s built-in server. Open a terminal in the `To-Do app` directory and run:
      ```
      php -S localhost:8000
      ```
    - Then visit `http://localhost:8000` in your browser.
+
+**Option B: Using XAMPP**
+4. **Set up with XAMPP**:
+   - Make sure XAMPP is installed and running (start Apache and MySQL from the XAMPP control panel).
+   - Move or copy the entire To-Do app folder to your htdocs directory:
+      ```
+      C:\xampp\htdocs\To-Do-App
+      ```
+   - Open your browser and go to:
+      ```
+      http://localhost/To-Do-App
+      ```
+   - Ensure your database is created as described in Step 2.
 
 5. **Add, complete, or delete tasks**:
    - Use the input box to add a new task.
