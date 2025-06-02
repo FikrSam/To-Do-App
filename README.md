@@ -52,10 +52,7 @@ A simple to-do list web application using HTML, CSS, JavaScript, PHP, and MySQL.
       ```
       C:\xampp\htdocs\To-Do-App
       ```
-   - Open your browser and go to:
-      ```
-      http://localhost/To-Do-App
-      ```
+   - Open your browser and go to: `http://localhost/To-Do-App`
    - Ensure your database is created as described in Step 2.
 
 5. **Add, complete, or delete tasks**:
