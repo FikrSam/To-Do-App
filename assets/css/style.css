@@ -24,9 +24,9 @@ body {
   padding: 2rem;
   background-color: #1E2B30;
   border-radius: 1rem;
-  text-align: center;
   display: flex;
   flex-direction: column;
+  text-align: center;
   z-index: 1;
 }
 
@@ -95,16 +95,34 @@ h1 {
   border-color: #6EE7B7;
 }
 
-/* Task List */
+/* Task List Container */
 .task-list-container {
   flex-grow: 1;
-  overflow-y: auto;
   max-height: 335px;
+  overflow-y: overlay;
   padding-top: 0.7rem;
   margin-right: -12px;
   padding-right: 12px;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
 }
 
+.task-list-container::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+}
+
+.task-list-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@supports (scrollbar-color: red blue) {
+  .task-list-container {
+    scrollbar-color: #2F3D44 transparent;
+  }
+}
+
+/* Task List Items */
 #task-list {
   list-style: none;
   padding: 0;
@@ -121,7 +139,7 @@ h1 {
   display: flex;
   align-items: center;
   min-height: 3rem;
-  width: 100%;
+  width: 101%;
   transition: box-shadow 0.2s;
 }
 
