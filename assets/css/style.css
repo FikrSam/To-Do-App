@@ -101,6 +101,8 @@ h1 {
   max-height: 335px;
   overflow-y: overlay;
   padding-top: 0.7rem;
+  margin-left: -10px;
+  padding-left: 10px;
   margin-right: -12px;
   padding-right: 12px;
   scrollbar-gutter: stable;
